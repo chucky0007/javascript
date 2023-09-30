@@ -28,3 +28,24 @@ console.log(typeof name ,typeof age ,typeof isMale ,typeof lifespan ,typeof deat
 //i)Array
 //ii)Object
 //iii)Function
+
+
+let subjects =["Maths","IT","Science","Chemistry","Physics"];
+console.log(subjects)
+console.log(typeof subjects)
+
+let myObj = {
+fname:"Suyog",
+lname:"dale",
+age:25
+}
+
+console.log(myObj)
+console.log(typeof myObj)
+
+let myfuntion = function()
+{
+    console.log(2+2);
+}
+console.log(myfuntion())
+console.log(typeof myfuntion)
