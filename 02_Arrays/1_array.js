@@ -22,5 +22,7 @@ console.log("F",love)
 
 love.splice(0,3)
 console.log("G",love)
-//const joke =
+
+const joke = new Array('s','u','y','o','g')
+console.log(joke)
 
