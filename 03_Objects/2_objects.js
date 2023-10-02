@@ -30,3 +30,16 @@ const obj5={
 //const obj6={obj4,obj5}
 const obj6=Object.assign(obj4,obj5) 
 console.log(obj6)
+
+const bodyParts=
+{
+    hand:1,
+    leg:1,
+    stomach:1
+}
+
+const {hand:hnd}= bodyParts
+console.log(hnd)
+console.log(Object.keys(bodyParts))
+console.log(Object.values(bodyParts))
+console.log(Object.entries(bodyParts))
